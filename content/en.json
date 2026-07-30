@@ -1,0 +1,349 @@
+{
+  "nav": {
+    "links": [
+      { "label": "Home", "href": "#" },
+      { "label": "About", "href": "#about" },
+      { "label": "Solutions", "href": "#gallery" },
+      { "label": "Why KRONS", "href": "#timeline" },
+      { "label": "Projects", "href": "#projects" },
+      { "label": "Gallery", "href": "/galeria" }
+    ]
+  },
+  "hero": {
+    "title": "Corporate Training &\nStrategic Business Consulting",
+    "description": "In-house corporate training, business and HR consulting, ISO 9001 auditing and team building that drive sustainable results for organisations across Mozambique.",
+    "cta": "Book training",
+    "ctaSecondary": "Talk to Us",
+    "ctaWhatsappMessage": "Hello, I'd like more information about a training programme."
+  },
+  "about": {
+    "eyebrow": "About Us",
+    "valuesLabel": "VALUES:",
+    "valuesText": "Professionalism, Leadership, Commitment (to quality and standards), Fun and Interaction.",
+    "heading": "Turning Knowledge into Value, Shaping Tomorrow's Leaders",
+    "description": "Established in 2017, KRONS Training and Consulting is a Mozambican-based corporate training provider, business consulting, HR consulting (Payroll, Head Hunting and Labour Supply). We specialize in tailored in-house training programs designed to enhance workforce productivity, safety, and operational efficiency across key industries, including logistics, mining, oil & gas, and NGOs. We are also specialized on ISO 9001 (QMS) consulting and Auditing. Our expert-led courses combine local industry knowledge with international best practices, ensuring that businesses in Mozambique gain a competitive edge through skills development, compliance training, and team performance enhancement.",
+    "link": "Learn more about us"
+  },
+  "aboutVisual": {
+    "imageAlt": "Business environment representing growth and development",
+    "standForHeading": "What We Stand For",
+    "visionTitle": "Vision",
+    "visionText": "We aim to obtain market recognition for quality and professionalism of our services while we become the leading corporate training provider in Mozambique, recognized for innovation, reliability, and transformative learning experiences.",
+    "missionTitle": "Mission",
+    "missionText": "Based on the essence of continuous improvement, our mission is to provide our services at a high level and performing high quality standards. We aim to deliver high-impact, customized training solutions that drive organizational growth, improve workplace safety, and foster professional excellence across Mozambique's key economic sectors."
+  },
+  "aboutPage": {
+    "eyebrow": "About KRONS",
+    "title": "Who We Are",
+    "tagline": "Local knowledge, international standards and a serious commitment to results.",
+    "back": "Back to home",
+    "toc": "On this page",
+    "order": ["historia", "missao", "visao", "valores", "certificacoes", "presenca", "abordagem"],
+    "sections": {
+      "historia": {
+        "heading": "About Us",
+        "paragraphs": [
+          "Established in 2017, KRONS Training and Consulting is a Mozambican-based corporate training provider, business consulting, HR consulting (Payroll, Head Hunting and Labour Supply). We specialize in tailored in-house training programs designed to enhance workforce productivity, safety, and operational efficiency across key industries, including logistics, mining, oil & gas, and NGOs. We are also specialized on ISO 9001 (QMS) consulting and Auditing.",
+          "Our expert-led courses combine local industry knowledge with international best practices, ensuring that businesses in Mozambique gain a competitive edge through skills development, compliance training, and team performance enhancement."
+        ]
+      },
+      "missao": {
+        "heading": "Mission",
+        "paragraphs": [
+          "Based on the essence of continuous improvement, our mission is to provide our services at a high level and performing high quality standards. We aim to deliver high-impact, customized training solutions that drive organizational growth, improve workplace safety, and foster professional excellence across Mozambique's key economic sectors."
+        ]
+      },
+      "visao": {
+        "heading": "Vision",
+        "paragraphs": [
+          "We aim to obtain market recognition for quality and professionalism of our services while we become the leading corporate training provider in Mozambique, recognized for innovation, reliability, and transformative learning experiences."
+        ]
+      },
+      "valores": {
+        "heading": "Our Values",
+        "paragraphs": ["Our values are:"],
+        "chips": ["Professionalism", "Leadership", "Commitment (to quality and standards)", "Fun and Interaction"]
+      },
+      "certificacoes": {
+        "heading": "Certifications",
+        "paragraphs": ["We are ISO certified in the below categories:"],
+        "items": [
+          { "title": "ISO 9001:2015", "text": "Quality Management System" },
+          { "title": "ISO 21001:2018", "text": "Education Organization Management System" },
+          { "title": "ISO 29993:2017", "text": "Learning System outside the Formal Education System" },
+          { "title": "CPD", "text": "We are also CPD (Continuing Professional Development) in some of our courses." }
+        ]
+      },
+      "presenca": {
+        "heading": "Where We Work",
+        "paragraphs": [
+          "We are a leading Mozambican business consultancy headquartered in Beira, with operational presence in Tete, Manica, and Nampula.",
+          "Nationwide Coverage — Training delivery across Beira, Nampula, Tete, Chimoio, Nacala, Manica and more."
+        ],
+        "chips": ["Logistics", "Mining", "Oil & Gas", "NGOs", "Commercial Sector"]
+      },
+      "abordagem": {
+        "heading": "Our Approach",
+        "items": [
+          { "title": "Needs Assessment", "text": "We analyze your company's gaps before designing training." },
+          { "title": "Customized Content", "text": "Industry-relevant case studies & exercises." },
+          { "title": "Post-Training Support", "text": "Follow-up sessions & progress tracking." },
+          { "title": "Experienced Trainers", "text": "Certified professionals with real-world experience." }
+        ]
+      }
+    },
+    "ctaHeading": "Shall we talk?",
+    "ctaText": "Tell us your organisation's challenge — we will come back with a clear, tailored proposal.",
+    "ctaButton": "Talk to us",
+    "ctaWhatsappMessage": "Hello, I'd like more information about KRONS."
+  },
+  "gallery": {
+    "eyebrow": "What we do",
+    "heading": "Our Business Solutions",
+    "viewLabel": "Learn more",
+    "cards": [
+      { "slug": "formacao-corporativa", "title": "Corporate Training", "caption": "CPD-accredited in-house programmes" },
+      { "slug": "consultoria-empresarial", "title": "Business Consulting", "caption": "Strategy, ISO 9001 and continuous improvement" },
+      { "slug": "consultoria-rh", "title": "HR Consulting", "caption": "Payroll, headhunting and work permits" },
+      { "slug": "team-building-eventos", "title": "Team Building & Events", "caption": "Retreats and corporate events" }
+    ]
+  },
+  "activities": {
+    "eyebrow": "Our Business Solutions",
+    "back": "Back to solutions",
+    "offeringsHeading": "What we offer",
+    "approachHeading": "Why KRONS",
+    "ctaHeading": "Shall we design the right solution for your team?",
+    "ctaText": "Talk to us — we will come back with a proposal tailored to your organisation.",
+    "ctaButton": "Talk to us",
+    "ctaWhatsappMessage": "Hello, I'd like more information about the {title} programme.",
+    "items": {
+      "formacao-corporativa": {
+        "title": "Corporate Training",
+        "tagline": "In-house programmes that turn skills into results",
+        "intro": "Krons Executive Events is specialized in industry-relevant, skill-based training programs designed to enhance employee performance, drive operational efficiency, and support business growth.",
+        "note": "ISO 9001:2015 · ISO 21001:2018 · ISO 29993:2017 · CPD-accredited courses",
+        "approach": [
+          { "title": "Needs-Based Learning", "text": "Customized programs aligned with your company's objectives." },
+          { "title": "Practical & Interactive", "text": "Hands-on training with real-world applications." },
+          { "title": "Expert Facilitators", "text": "Industry professionals with field experience." },
+          { "title": "Flexible Delivery", "text": "On-site, virtual, or hybrid training options." }
+        ],
+        "offerings": [
+          { "title": "Technical & Industrial Skills", "text": "Electrical & Mechanical Maintenance, Occupational Health & Safety (OHS), Renewable Energy & Sustainability, Automation & Industry 4.0 Technologies." },
+          { "title": "Leadership & Management Development", "text": "Supervisory Skills for Team Leaders, Strategic Decision-Making, Project Management (PMI-Aligned), Change Management & Organizational Development." },
+          { "title": "Compliance & Certification Courses", "text": "ISO Standards Training (9001, 14001, 45001), First Aid & Emergency Response, Hazard Identification & Risk Assessment." },
+          { "title": "Soft Skills & Productivity Enhancement", "text": "Effective Communication & Negotiation, Time Management & Workplace Efficiency, Conflict Resolution & Team Collaboration, Customer Service Excellence." },
+          { "title": "Commercial & Professional Skills", "text": "Sales & customer service training, Financial (Accounting), Project management & business strategy." }
+        ]
+      },
+      "consultoria-empresarial": {
+        "title": "Business Consulting",
+        "tagline": "Strategic solutions for growth in the Mozambican market",
+        "intro": "We are a leading Mozambican business consultancy headquartered in Beira, with operational presence in Tete, Manica, and Nampula. We specialize in delivering tailored strategic solutions that help organizations navigate challenges, optimize operations, and achieve sustainable growth in Mozambique's dynamic business environment.",
+        "note": "Specialized on ISO 9001 (QMS) consulting and Auditing",
+        "approach": [
+          { "title": "Needs Assessment", "text": "We analyze your company's gaps before designing training." },
+          { "title": "Customized Content", "text": "Industry-relevant case studies & exercises." },
+          { "title": "Post-Training Support", "text": "Follow-up sessions & progress tracking." },
+          { "title": "Nationwide Coverage", "text": "Beira, Nampula, Tete, Chimoio, Nacala, Manica and more." }
+        ],
+        "offerings": [
+          { "title": "Business Strategy & Market Entry", "text": "Market research & feasibility studies, Business plan development, Go-to-market strategy formulation, Competitor analysis & positioning." },
+          { "title": "Operational Excellence", "text": "Process optimization & workflow redesign, Supply chain & logistics improvement, Quality management systems implementation." },
+          { "title": "Financial Advisory", "text": "Investment analysis & business valuation, Financial modeling & forecasting, Funding proposal development." },
+          { "title": "Corporate Governance", "text": "Board advisory services, Compliance & regulatory frameworks, ESG (Environmental, Social, Governance) strategy, Succession planning." },
+          { "title": "Digital Transformation", "text": "Technology adoption roadmaps, Automation strategy development, Digital marketing & e-commerce solutions." },
+          { "title": "ISO 9001 Consulting & Auditing", "text": "We are specialized on ISO 9001 (QMS) consulting and Auditing." }
+        ]
+      },
+      "consultoria-rh": {
+        "title": "HR Consulting",
+        "tagline": "The right talent, with compliance guaranteed",
+        "intro": "We deliver comprehensive human resource services designed to optimize workforce efficiency, ensure compliance, and connect businesses with top-tier talent across industries. We provide Headhunting for critical roles and manage Work Permit & VISA sponsorship to secure and relocate international expertise.",
+        "note": "Payroll · Headhunting · Labour supply · Visas and work permits",
+        "approach": [
+          { "title": "Local knowledge", "text": "Mozambican labour law advisory & compliance audits." },
+          { "title": "Talent network", "text": "Industry-specific talent mapping and vetted candidates." },
+          { "title": "Rigorous process", "text": "Competency-based assessment & selection." },
+          { "title": "End-to-end support", "text": "Onboarding & retention strategy support." }
+        ],
+        "offerings": [
+          { "title": "HR Consulting & Compliance", "text": "Mozambican labour law advisory & compliance audits, HR policy development & employee handbook creation, Organizational restructuring & job evaluation." },
+          { "title": "Payroll & Benefits Administration", "text": "End-to-end payroll processing & management, Tax & social security compliance, Customized compensation & benefits structuring." },
+          { "title": "Executive Search & Headhunting", "text": "Targeted recruitment for C-suite & specialized roles, Industry-specific talent mapping, Competency-based assessment & selection, Onboarding & retention strategy support." },
+          { "title": "VISA & Work Permits", "text": "Temporary & long term Work Permit, Business Visa (Application & Extension), Vetted candidates for industrial/technical roles, Complete workforce outsourcing options." }
+        ]
+      },
+      "team-building-eventos": {
+        "title": "Team Building & Events",
+        "tagline": "Uniting teams, driving excellence",
+        "intro": "We are specialized in transformative team-building experiences designed to strengthen collaboration, boost morale, and enhance productivity within your organization. We deliver high-impact corporate events tailored to your team's unique dynamics and business goals.",
+        "note": "Uniting teams, driving excellence",
+        "approach": [
+          { "title": "Customized Activities", "text": "From adventure challenges to strategy-based workshops, we design programs that align with your company's culture and objectives." },
+          { "title": "Expert Facilitators", "text": "Our trainers use proven methodologies to foster communication, leadership, and problem-solving skills." },
+          { "title": "Local & National Reach", "text": "We operate across Mozambique, offering both indoor and outdoor experiences." },
+          { "title": "Measurable Results", "text": "Improved teamwork, higher engagement, and stronger workplace cohesion." }
+        ],
+        "offerings": [
+          { "title": "Adventure & Outdoor Challenges", "text": "Treasure hunts, obstacle courses, survival simulations." },
+          { "title": "Creative & Collaborative Workshops", "text": "Problem-solving games, innovation labs." },
+          { "title": "Leadership & Trust-Building Exercises", "text": "" },
+          { "title": "Corporate Retreats & Motivational Events", "text": "" },
+          { "title": "Custom-Branded Experiences", "text": "Themed events tailored to your industry." },
+          { "title": "Corporate Event Management", "text": "Ensures your events and executive gatherings achieve their strategic communication and networking objectives." }
+        ]
+      }
+    }
+  },
+  "timeline": {
+    "eyebrow": "Why KRONS",
+    "heading": "Working with KRONS Training You Get",
+    "milestones": [
+      { "year": "01", "title": "Industry-Specific Expertise", "text": "Specialized training for logistics, mining, oil & gas, and commercial sectors." },
+      { "year": "02", "title": "In-House Training Focus", "text": "Flexible, on-site programs tailored to your company's needs." },
+      { "year": "03", "title": "Experienced Trainers", "text": "Certified professionals with real-world experience." },
+      { "year": "04", "title": "Nationwide Coverage", "text": "Training delivery across Beira, Nampula, Tete, Chimoio, Nacala, Manica and more." },
+      { "year": "05", "title": "Practical & Engaging Methods", "text": "Interactive workshops, case studies, and simulations." }
+    ]
+  },
+  "projects": {
+    "eyebrow": "Selected Work",
+    "heading": "Work that speaks for us",
+    "subtitle": "A selection of programmes, consulting engagements and events delivered with real impact across Mozambique.",
+    "sliderPrev": "Previous image",
+    "sliderNext": "Next image",
+    "items": [
+      { "tag": "Training", "title": "Procurement Training — CPMZ", "location": "Beira", "year": "2023", "description": "Procurement training for the CPMZ Pipeline team: business case, investment appraisal, contract and risk management, with cases applied to the organisation's reality." },
+      { "tag": "Team Building", "title": "INPETRO Team Building", "location": "Beira", "year": "2022", "description": "A team-building programme for the INPETRO team: group dynamics, team challenges and a final competition with a trophy and certificates that lifted the team's energy and spirit." },
+      { "tag": "Team Building", "title": "UNDP Team Building 2025", "location": "Mozambique", "year": "2025", "description": "A team-building programme designed for the UNDP team: outdoor collaborative challenges, strategy games and trust exercises that strengthened team cohesion and communication." },
+      { "tag": "Training", "title": "Technical Business Training", "location": "Beira", "year": "2020", "description": "A technical business skills programme for young professionals, with hands-on sessions, continuous assessment and participant certification." }
+    ]
+  },
+  "testimonials": {
+    "eyebrow": "Testimonials",
+    "heading": "What people say about our work",
+    "items": [
+      { "quote": "KRONS training boosted our team's productivity and gave us methods we apply every single day.", "name": "Carlos Mucavele", "role": "Operations Director", "location": "Maputo" },
+      { "quote": "Professional from start to finish. Their ISO certification support made all the difference for us.", "name": "Ana Tembe", "role": "Quality Manager", "location": "Beira" },
+      { "quote": "Serious, results-driven consulting. They helped us define a clear and confident growth strategy.", "name": "Jorge Nhaca", "role": "Administrator", "location": "Nampula" }
+    ]
+  },
+  "partners": {
+    "eyebrow": "Partners",
+    "heading": "Organisations we collaborate with"
+  },
+  "footer": {
+    "tagline": "Corporate training, business and HR consulting and ISO 9001 auditing, in Beira since 2017.",
+    "backToTop": "Back to top",
+    "navHeading": "Navigation",
+    "navLinks": [
+      { "label": "Home", "href": "#" },
+      { "label": "About", "href": "#about" },
+      { "label": "Solutions", "href": "#gallery" },
+      { "label": "Why KRONS", "href": "#timeline" },
+      { "label": "Projects", "href": "#projects" },
+      { "label": "Gallery", "href": "/galeria" }
+    ],
+    "contactsHeading": "Contact",
+    "siteLabel": "Website:",
+    "emailLabel": "Email:",
+    "phoneLabel": "Phone:",
+    "whatsappLabel": "WhatsApp:",
+    "addressLabel": "Address:",
+    "address": "Av. FPLM, Bairro Palmeiras, Beira, Mozambique",
+    "website": "kronsconsulting.co.mz",
+    "email": "admin@kronsevents.com",
+    "email2": "geral@kronslda.com",
+    "phone": "+258 87 322 3444",
+    "whatsapp": "+258 86 822 3444",
+    "whatsappAriaLabel": "Contact us on WhatsApp",
+    "social": {
+      "facebook": "https://www.facebook.com/kronsevents/",
+      "linkedin": "https://www.linkedin.com/company/krons-e-events"
+    },
+    "privacy": "Privacy Policy",
+    "companyName": "Krons Training and Consulting",
+    "copyright": "© 2026 All rights reserved."
+  },
+  "faq": {
+    "eyebrow": "Frequently Asked Questions",
+    "heading": "Still have questions?",
+    "subtitle": "Quick answers to what people usually ask.",
+    "noMatch": "We don't have that published yet — talk to us directly and we'll reply quickly.",
+    "whatsappCta": "Talk to Us on WhatsApp",
+    "moreQuestions": "Still have questions? Get in touch directly and we'll respond quickly.",
+    "items": [
+      {
+        "id": "formacoes",
+        "question": "What training and solutions does KRONS offer?",
+        "keywords": ["training", "course", "courses", "solution", "solutions", "services", "offer", "area"]
+      },
+      {
+        "id": "duracao",
+        "question": "How long do the courses last?",
+        "keywords": ["duration", "long", "days", "hours", "how long", "length"],
+        "notPublished": "Duration varies by programme and is tailored together with each company."
+      },
+      {
+        "id": "inscricao",
+        "question": "How does the enrolment process work?",
+        "keywords": ["enrolment", "enroll", "sign up", "book", "reserve", "how to start", "process"],
+        "notPublished": "We don't have an online enrolment process yet — we handle everything directly with you, by WhatsApp, phone or email."
+      },
+      {
+        "id": "precos",
+        "question": "What are the prices?",
+        "keywords": ["price", "prices", "cost", "costs", "value", "budget", "how much"],
+        "notPublished": "Prices vary by programme and number of participants — contact us for a tailored quote."
+      },
+      {
+        "id": "contactos",
+        "question": "How can I get in touch?",
+        "keywords": ["contact", "contacts", "phone", "email", "talk", "number", "touch"]
+      },
+      {
+        "id": "localizacao",
+        "question": "Where are you located?",
+        "keywords": ["location", "address", "where", "based", "office"]
+      },
+      {
+        "id": "institucional",
+        "question": "Who is KRONS?",
+        "keywords": ["who are", "who is", "company", "about", "institutional", "history", "founded"]
+      }
+    ]
+  },
+  "chatbot": {
+    "launcherLabel": "Open virtual assistant",
+    "closeLabel": "Close assistant",
+    "title": "KRONS Assistant",
+    "greeting": "Hi! I can help with information about training, contacts and location. Choose a question or type yours.",
+    "inputPlaceholder": "Type your question...",
+    "send": "Send",
+    "fallback": "I don't have that information yet. Talk to us on WhatsApp — it's faster!",
+    "fallbackCta": "Continue on WhatsApp",
+    "fallbackMessage": "Hello, I have a question the site assistant couldn't answer."
+  },
+  "photoGallery": {
+    "eyebrow": "KRONS Moments",
+    "heading": "Gallery",
+    "subtitle": "A few moments from our training programmes and team building events in Mozambique.",
+    "teaserText": "Explore KRONS Moments",
+    "back": "Back to home",
+    "items": [
+      { "alt": "Procurement training for CPMZ" },
+      { "alt": "Corporate team building with the INPETRO team" },
+      { "alt": "Team building with the UNDP team in 2025" },
+      { "alt": "Business negotiation technical training" },
+      { "alt": "Group activity during the INPETRO team building" },
+      { "alt": "Group session at the UNDP team building" },
+      { "alt": "Outdoor team building activity" },
+      { "alt": "Procurement training session for CPMZ" },
+      { "alt": "The INPETRO team at work during the team building session" },
+      { "alt": "Team-building construction challenge with the UNDP team" },
+      { "alt": "Business negotiation technical training — handing out materials to participants" }
+    ]
+  }
+}

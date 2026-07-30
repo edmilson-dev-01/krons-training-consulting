@@ -1,0 +1,288 @@
+.section {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 44px;
+  padding: 80px 60px;
+  background: var(--surface);
+  scroll-snap-align: start;
+}
+
+/* Decorative frame — one line on top, two separate segments at the bottom */
+.lineTop {
+  position: absolute;
+  top: 0;
+  left: 60px;
+  right: 60px;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(var(--accent-rgb), 0.55) 25%,
+    rgba(var(--accent-rgb), 0.55) 75%,
+    transparent
+  );
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.9s cubic-bezier(0.16, 1, 0.3, 1) 0.1s;
+}
+
+.lineBottomLeft,
+.lineBottomRight {
+  position: absolute;
+  bottom: 0;
+  width: 160px;
+  height: 2px;
+  background: var(--accent);
+  opacity: 0.85;
+  transform: scaleX(0);
+  transition: transform 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.45s;
+}
+
+.lineBottomLeft {
+  left: 60px;
+  transform-origin: left;
+}
+.lineBottomRight {
+  right: 60px;
+  transform-origin: right;
+}
+
+.section.visible .lineTop,
+.section.visible .lineBottomLeft,
+.section.visible .lineBottomRight {
+  transform: scaleX(1);
+}
+
+.head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  text-align: center;
+}
+
+.eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--accent);
+  opacity: 0;
+  transform: translateY(18px);
+  transition:
+    opacity 0.7s ease,
+    transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+
+.heading {
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -0.7px;
+  color: var(--heading);
+  margin: 0;
+  opacity: 0;
+  transform: translateY(20px);
+  transition:
+    opacity 0.8s ease 0.08s,
+    transform 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.08s;
+}
+
+.section.visible .eyebrow,
+.section.visible .heading {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 26px;
+  width: 100%;
+  max-width: var(--max-width);
+}
+
+/* Card — light, minimalist, icon-led */
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 40px 30px 32px;
+  border-radius: 20px;
+  background: var(--white);
+  border: 1px solid var(--border);
+  cursor: pointer;
+  box-shadow:
+    0 1px 2px rgba(var(--ink-rgb), 0.04),
+    0 14px 32px rgba(var(--ink-rgb), 0.06);
+  opacity: 0;
+  transform: translateY(32px);
+  transition:
+    opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1),
+    transform 0.85s cubic-bezier(0.16, 1, 0.3, 1),
+    border-color 0.4s ease,
+    box-shadow 0.4s ease;
+}
+
+.section.visible .card {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.section.visible .card:nth-child(1) {
+  transition-delay: 0.15s;
+}
+.section.visible .card:nth-child(2) {
+  transition-delay: 0.24s;
+}
+.section.visible .card:nth-child(3) {
+  transition-delay: 0.33s;
+}
+.section.visible .card:nth-child(4) {
+  transition-delay: 0.42s;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  border-color: rgba(var(--accent-rgb), 0.35);
+  box-shadow:
+    0 4px 8px rgba(var(--ink-rgb), 0.05),
+    0 26px 48px rgba(var(--ink-rgb), 0.1);
+}
+
+/* Icon badge — the visual anchor that replaces the photo */
+.iconWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 16px;
+  background: var(--accent-tint);
+  color: var(--accent-strong);
+  margin-bottom: 24px;
+  transition:
+    background 0.4s ease,
+    color 0.4s ease,
+    transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.card:hover .iconWrapper {
+  background: var(--accent);
+  color: var(--white);
+  transform: translateY(-2px);
+}
+
+.icon {
+  width: 26px;
+  height: 26px;
+}
+
+/* Title */
+.cardTitle {
+  position: relative;
+  font-size: 19px;
+  font-weight: 600;
+  color: var(--heading);
+  margin: 0 0 10px;
+}
+
+.cardTitleText {
+  position: relative;
+  display: inline;
+  background-image: linear-gradient(var(--accent), var(--accent));
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  background-size: 0% 2px;
+  padding-bottom: 3px;
+  transition: background-size 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.card:hover .cardTitleText {
+  background-size: 100% 2px;
+}
+
+/* Caption — always visible, no image to reveal it from */
+.cardCaption {
+  font-size: 13.5px;
+  line-height: 1.65;
+  color: var(--text-soft);
+  margin: 0;
+}
+
+/* "Learn more" hint, pinned to the bottom of the card */
+.cardMore {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  color: var(--accent-strong);
+  margin-top: auto;
+  padding-top: 20px;
+  border-top: 1px solid var(--border);
+  width: 100%;
+}
+
+.cardMore svg {
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.card:hover .cardMore svg {
+  transform: translateX(4px);
+}
+
+/* Tablet — 2 columns */
+@media (max-width: 992px) {
+  .section {
+    padding: 70px 24px;
+  }
+  .heading {
+    font-size: 28px;
+  }
+  .lineTop,
+  .lineBottomLeft,
+  .lineBottomRight {
+    left: 24px;
+    right: 24px;
+  }
+  .lineBottomLeft {
+    right: auto;
+    width: 110px;
+  }
+  .lineBottomRight {
+    left: auto;
+    width: 110px;
+  }
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+  }
+}
+
+/* Mobile — single column */
+@media (max-width: 560px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  .card {
+    padding: 32px 26px 28px;
+  }
+}

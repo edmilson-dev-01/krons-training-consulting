@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root {
+  /* Ink — deep navy for the scrolled nav, mobile menu and footer surfaces */
+  --ink: #152638;
+  --ink-rgb: 21, 38, 56;
+  --heading: #1c3a5c;
+
+  /* Body text */
+  --text: #4b5563;
+  --text-soft: #6a7482;
+  --muted: #b9c7d6;
+
+  /* Brand blue — "monolith sky": mid-dark, elegant */
+  --brand-blue: #24476b;
+  --brand-blue-light: #9dbbdb; /* legible blue for dark surfaces */
+
+  /* Brand red accent — "blood rust": muted, elegant, never neon */
+  --accent: #a23a32;
+  --accent-strong: #862c25;
+  --accent-soft: #bf5a4e;
+  --accent-rgb: 162, 58, 50;
+  --accent-tint: #f8eeec;
+
+  /* Light — ultra white base */
+  --cream: #f8fafc;
+  --surface: #ffffff;
+  --white: #ffffff;
+  --white-rgb: 255, 255, 255;
+  --black-rgb: 0, 0, 0;
+  --border: #e6ebf1;
+
+  --font-main: 'Poppins', sans-serif;
+  --max-width: 1200px;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-snap-type: y proximity;
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: var(--font-main);
+  color: var(--text);
+  background: var(--surface);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+img,
+picture,
+video,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+input,
+textarea,
+select {
+  font-family: inherit;
+}
+
+@media (max-width: 992px) {
+  html {
+    scroll-snap-type: none;
+  }
+}

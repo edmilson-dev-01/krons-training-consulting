@@ -1,0 +1,349 @@
+{
+  "nav": {
+    "links": [
+      { "label": "Início", "href": "#" },
+      { "label": "Sobre", "href": "#about" },
+      { "label": "Soluções", "href": "#gallery" },
+      { "label": "Porquê a KRONS", "href": "#timeline" },
+      { "label": "Projetos", "href": "#projects" },
+      { "label": "Galeria", "href": "/galeria" }
+    ]
+  },
+  "hero": {
+    "title": "Formação e Consultoria\npara o Crescimento Empresarial",
+    "description": "Formação corporativa in-house, consultoria empresarial e de RH, auditoria ISO 9001 e team building que impulsionam resultados sustentáveis para organizações em Moçambique.",
+    "cta": "Marcar formação",
+    "ctaSecondary": "Fale connosco",
+    "ctaWhatsappMessage": "Olá, gostaria de obter mais informações sobre uma formação."
+  },
+  "about": {
+    "eyebrow": "Sobre a KRONS",
+    "valuesLabel": "VALORES:",
+    "valuesText": "Profissionalismo, Liderança, Compromisso (com a qualidade e os padrões), Diversão e Interação.",
+    "heading": "Transformamos Conhecimento em Valor e Formamos os Líderes do Futuro",
+    "description": "Fundada em 2017, a KRONS Training and Consulting é uma empresa moçambicana de formação corporativa, consultoria empresarial e consultoria de RH (Payroll, Headhunting e Cedência de Mão-de-obra). Especializamo-nos em programas de formação in-house à medida, concebidos para melhorar a produtividade, a segurança e a eficiência operacional da força de trabalho nos principais sectores, incluindo logística, mineração, oil & gas e ONGs. Somos também especializados em consultoria e auditoria ISO 9001 (SGQ). Os nossos cursos, conduzidos por especialistas, combinam o conhecimento da indústria local com as melhores práticas internacionais, garantindo que as empresas em Moçambique ganham vantagem competitiva através do desenvolvimento de competências, da formação em compliance e da melhoria do desempenho das equipas.",
+    "link": "Saiba mais sobre nós"
+  },
+  "aboutVisual": {
+    "imageAlt": "Ambiente empresarial que representa crescimento e desenvolvimento",
+    "standForHeading": "Aquilo em que Acreditamos",
+    "visionTitle": "Visão",
+    "visionText": "Procuramos obter o reconhecimento do mercado pela qualidade e pelo profissionalismo dos nossos serviços, tornando-nos o principal provedor de formação corporativa em Moçambique, reconhecido pela inovação, fiabilidade e experiências de aprendizagem transformadoras.",
+    "missionTitle": "Missão",
+    "missionText": "Assente na essência da melhoria contínua, a nossa missão é prestar os nossos serviços a um nível elevado e com padrões de alta qualidade. Procuramos entregar soluções de formação personalizadas e de alto impacto que impulsionem o crescimento organizacional, melhorem a segurança no trabalho e promovam a excelência profissional nos principais sectores económicos de Moçambique."
+  },
+  "aboutPage": {
+    "eyebrow": "Sobre a KRONS",
+    "title": "Quem Somos",
+    "tagline": "Conhecimento local, padrões internacionais e um compromisso sério com resultados.",
+    "back": "Voltar ao início",
+    "toc": "Nesta página",
+    "order": ["historia", "missao", "visao", "valores", "certificacoes", "presenca", "abordagem"],
+    "sections": {
+      "historia": {
+        "heading": "Sobre Nós",
+        "paragraphs": [
+          "Fundada em 2017, a KRONS Training and Consulting é uma empresa moçambicana de formação corporativa, consultoria empresarial e consultoria de RH (Payroll, Headhunting e Cedência de Mão-de-obra). Especializamo-nos em programas de formação in-house à medida, concebidos para melhorar a produtividade, a segurança e a eficiência operacional da força de trabalho nos principais sectores, incluindo logística, mineração, oil & gas e ONGs. Somos também especializados em consultoria e auditoria ISO 9001 (SGQ).",
+          "Os nossos cursos, conduzidos por especialistas, combinam o conhecimento da indústria local com as melhores práticas internacionais, garantindo que as empresas em Moçambique ganham vantagem competitiva através do desenvolvimento de competências, da formação em compliance e da melhoria do desempenho das equipas."
+        ]
+      },
+      "missao": {
+        "heading": "Missão",
+        "paragraphs": [
+          "Assente na essência da melhoria contínua, a nossa missão é prestar os nossos serviços a um nível elevado e com padrões de alta qualidade. Procuramos entregar soluções de formação personalizadas e de alto impacto que impulsionem o crescimento organizacional, melhorem a segurança no trabalho e promovam a excelência profissional nos principais sectores económicos de Moçambique."
+        ]
+      },
+      "visao": {
+        "heading": "Visão",
+        "paragraphs": [
+          "Procuramos obter o reconhecimento do mercado pela qualidade e pelo profissionalismo dos nossos serviços, tornando-nos o principal provedor de formação corporativa em Moçambique, reconhecido pela inovação, fiabilidade e experiências de aprendizagem transformadoras."
+        ]
+      },
+      "valores": {
+        "heading": "Os Nossos Valores",
+        "paragraphs": ["Os nossos valores são:"],
+        "chips": ["Profissionalismo", "Liderança", "Compromisso (com a qualidade e os padrões)", "Diversão e Interação"]
+      },
+      "certificacoes": {
+        "heading": "Certificações",
+        "paragraphs": ["Somos certificados ISO nas seguintes categorias:"],
+        "items": [
+          { "title": "ISO 9001:2015", "text": "Sistema de Gestão da Qualidade" },
+          { "title": "ISO 21001:2018", "text": "Sistema de Gestão para Organizações Educacionais" },
+          { "title": "ISO 29993:2017", "text": "Serviços de aprendizagem fora da educação formal" },
+          { "title": "CPD", "text": "Somos também acreditados CPD (Continuing Professional Development) em alguns dos nossos cursos." }
+        ]
+      },
+      "presenca": {
+        "heading": "Onde Atuamos",
+        "paragraphs": [
+          "Somos uma consultoria empresarial moçambicana de referência, com sede na Beira e presença operacional em Tete, Manica e Nampula.",
+          "Cobertura nacional: entrega de formação na Beira, Nampula, Tete, Chimoio, Nacala, Manica e mais."
+        ],
+        "chips": ["Logística", "Mineração", "Oil & Gas", "ONGs", "Sector Comercial"]
+      },
+      "abordagem": {
+        "heading": "A Nossa Abordagem",
+        "items": [
+          { "title": "Diagnóstico de Necessidades", "text": "Analisamos as lacunas da sua empresa antes de desenhar a formação." },
+          { "title": "Conteúdo Personalizado", "text": "Casos de estudo e exercícios relevantes para a indústria." },
+          { "title": "Apoio Pós-Formação", "text": "Sessões de follow-up e monitorização do progresso." },
+          { "title": "Formadores Experientes", "text": "Profissionais certificados com experiência real." }
+        ]
+      }
+    },
+    "ctaHeading": "Vamos conversar?",
+    "ctaText": "Conte-nos o desafio da sua organização — respondemos com uma proposta clara e à medida.",
+    "ctaButton": "Fale connosco",
+    "ctaWhatsappMessage": "Olá, gostaria de obter mais informações sobre a KRONS."
+  },
+  "gallery": {
+    "eyebrow": "O que fazemos",
+    "heading": "As Nossas Soluções de Negócio",
+    "viewLabel": "Saiba mais",
+    "cards": [
+      { "slug": "formacao-corporativa", "title": "Formação Corporativa", "caption": "Programas in-house acreditados CPD" },
+      { "slug": "consultoria-empresarial", "title": "Consultoria Empresarial", "caption": "Estratégia, ISO 9001 e melhoria contínua" },
+      { "slug": "consultoria-rh", "title": "Consultoria de RH", "caption": "Payroll, headhunting e vistos" },
+      { "slug": "team-building-eventos", "title": "Team Building & Eventos", "caption": "Retiros e eventos corporativos" }
+    ]
+  },
+  "activities": {
+    "eyebrow": "As Nossas Soluções de Negócio",
+    "back": "Voltar às soluções",
+    "offeringsHeading": "O que oferecemos",
+    "approachHeading": "Porquê a KRONS",
+    "ctaHeading": "Vamos desenhar a solução certa para a sua equipa?",
+    "ctaText": "Fale connosco — respondemos com uma proposta à medida da sua organização.",
+    "ctaButton": "Fale connosco",
+    "ctaWhatsappMessage": "Olá, gostaria de obter mais informações sobre a formação em {title}.",
+    "items": {
+      "formacao-corporativa": {
+        "title": "Formação Corporativa",
+        "tagline": "Programas in-house que transformam competências em resultados",
+        "intro": "A Krons Executive Events é especializada em programas de formação relevantes para a indústria e baseados em competências, concebidos para melhorar o desempenho dos colaboradores, aumentar a eficiência operacional e apoiar o crescimento do negócio.",
+        "note": "ISO 9001:2015 · ISO 21001:2018 · ISO 29993:2017 · Cursos acreditados CPD",
+        "approach": [
+          { "title": "Aprendizagem Baseada em Necessidades", "text": "Programas personalizados e alinhados com os objetivos da sua empresa." },
+          { "title": "Prático & Interativo", "text": "Formação hands-on com aplicações do mundo real." },
+          { "title": "Facilitadores Especialistas", "text": "Profissionais da indústria com experiência de terreno." },
+          { "title": "Entrega Flexível", "text": "Opções de formação presencial, virtual ou híbrida." }
+        ],
+        "offerings": [
+          { "title": "Competências Técnicas & Industriais", "text": "Manutenção Elétrica & Mecânica, Saúde e Segurança Ocupacional (OHS), Energias Renováveis & Sustentabilidade, Automação & Tecnologias da Indústria 4.0." },
+          { "title": "Desenvolvimento de Liderança & Gestão", "text": "Competências de Supervisão para Líderes de Equipa, Tomada de Decisão Estratégica, Gestão de Projetos (alinhada ao PMI), Gestão da Mudança & Desenvolvimento Organizacional." },
+          { "title": "Cursos de Compliance & Certificação", "text": "Formação em Normas ISO (9001, 14001, 45001), Primeiros Socorros & Resposta a Emergências, Identificação de Perigos & Avaliação de Riscos." },
+          { "title": "Soft Skills & Melhoria da Produtividade", "text": "Comunicação Eficaz & Negociação, Gestão de Tempo & Eficiência no Trabalho, Resolução de Conflitos & Colaboração em Equipa, Excelência no Atendimento ao Cliente." },
+          { "title": "Competências Comerciais & Profissionais", "text": "Formação em vendas & atendimento ao cliente, Financeira (Contabilidade), Gestão de projetos & estratégia de negócio." }
+        ]
+      },
+      "consultoria-empresarial": {
+        "title": "Consultoria Empresarial",
+        "tagline": "Soluções estratégicas para crescer no mercado moçambicano",
+        "intro": "Somos uma consultoria empresarial moçambicana de referência, com sede na Beira e presença operacional em Tete, Manica e Nampula. Especializamo-nos em entregar soluções estratégicas à medida que ajudam as organizações a ultrapassar desafios, otimizar operações e alcançar crescimento sustentável no dinâmico ambiente de negócios de Moçambique.",
+        "note": "Especialistas em consultoria e auditoria ISO 9001 (SGQ)",
+        "approach": [
+          { "title": "Diagnóstico de Necessidades", "text": "Analisamos as lacunas da sua empresa antes de desenhar a solução." },
+          { "title": "Conteúdo Personalizado", "text": "Casos de estudo e exercícios relevantes para a indústria." },
+          { "title": "Apoio Pós-Formação", "text": "Sessões de follow-up e monitorização do progresso." },
+          { "title": "Cobertura Nacional", "text": "Beira, Nampula, Tete, Chimoio, Nacala, Manica e mais." }
+        ],
+        "offerings": [
+          { "title": "Estratégia de Negócio & Entrada no Mercado", "text": "Estudos de mercado & de viabilidade, Desenvolvimento de planos de negócio, Formulação de estratégias go-to-market, Análise de concorrência & posicionamento." },
+          { "title": "Excelência Operacional", "text": "Otimização de processos & redesenho de fluxos de trabalho, Melhoria da cadeia de abastecimento & logística, Implementação de sistemas de gestão da qualidade." },
+          { "title": "Assessoria Financeira", "text": "Análise de investimentos & avaliação de empresas, Modelação & previsão financeira, Desenvolvimento de propostas de financiamento." },
+          { "title": "Governação Corporativa", "text": "Assessoria a conselhos de administração, Quadros de compliance & regulação, Estratégia ESG (Ambiental, Social e Governação), Planeamento de sucessão." },
+          { "title": "Transformação Digital", "text": "Roteiros de adoção tecnológica, Desenvolvimento de estratégias de automação, Marketing digital & soluções de e-commerce." },
+          { "title": "Consultoria & Auditoria ISO 9001", "text": "Somos especializados em consultoria e auditoria ISO 9001 (SGQ)." }
+        ]
+      },
+      "consultoria-rh": {
+        "title": "Consultoria de RH",
+        "tagline": "O talento certo, com compliance garantido",
+        "intro": "Prestamos serviços integrados de recursos humanos, desenhados para otimizar a eficiência da força de trabalho, garantir a conformidade e ligar as empresas ao melhor talento em todas as indústrias. Fazemos Headhunting para funções críticas e gerimos o patrocínio de Permissões de Trabalho & Vistos para captar e realojar especialistas internacionais.",
+        "note": "Payroll · Headhunting · Cedência de mão-de-obra · Vistos e permissões de trabalho",
+        "approach": [
+          { "title": "Conhecimento local", "text": "Assessoria em legislação laboral moçambicana e auditorias de conformidade." },
+          { "title": "Rede de talento", "text": "Mapeamento de talento específico por indústria e candidatos verificados." },
+          { "title": "Processo rigoroso", "text": "Avaliação e seleção baseadas em competências." },
+          { "title": "Apoio ponta a ponta", "text": "Apoio ao onboarding e à estratégia de retenção." }
+        ],
+        "offerings": [
+          { "title": "Consultoria de RH & Compliance", "text": "Assessoria em legislação laboral moçambicana & auditorias de conformidade, Desenvolvimento de políticas de RH & criação de manuais do colaborador, Reestruturação organizacional & avaliação de funções." },
+          { "title": "Administração de Payroll & Benefícios", "text": "Processamento & gestão completa da folha de pagamento, Conformidade fiscal & com a segurança social, Estruturação personalizada de compensação & benefícios." },
+          { "title": "Executive Search & Headhunting", "text": "Recrutamento direcionado para cargos C-suite & funções especializadas, Mapeamento de talento específico por indústria, Avaliação & seleção baseadas em competências, Apoio ao onboarding & estratégia de retenção." },
+          { "title": "Vistos & Permissões de Trabalho", "text": "Permissões de Trabalho temporárias & de longa duração, Visto de Negócio (Pedido & Extensão), Candidatos verificados para funções industriais/técnicas, Opções completas de outsourcing de força de trabalho." }
+        ]
+      },
+      "team-building-eventos": {
+        "title": "Team Building & Eventos",
+        "tagline": "Unir equipas, impulsionar a excelência",
+        "intro": "Somos especializados em experiências transformadoras de team building, desenhadas para fortalecer a colaboração, elevar a moral e aumentar a produtividade dentro da sua organização. Entregamos eventos corporativos de alto impacto, feitos à medida da dinâmica única e dos objetivos de negócio da sua equipa.",
+        "note": "Unindo equipas, impulsionando a excelência",
+        "approach": [
+          { "title": "Atividades Personalizadas", "text": "De desafios de aventura a workshops estratégicos, desenhamos programas alinhados com a cultura e os objetivos da sua empresa." },
+          { "title": "Facilitadores Especialistas", "text": "Os nossos formadores usam metodologias comprovadas para fomentar a comunicação, a liderança e a resolução de problemas." },
+          { "title": "Alcance Local & Nacional", "text": "Operamos em todo o Moçambique, com experiências indoor e outdoor." },
+          { "title": "Resultados Mensuráveis", "text": "Melhor trabalho em equipa, maior envolvimento e coesão mais forte no local de trabalho." }
+        ],
+        "offerings": [
+          { "title": "Aventura & Desafios Outdoor", "text": "Caças ao tesouro, percursos de obstáculos, simulações de sobrevivência." },
+          { "title": "Workshops Criativos & Colaborativos", "text": "Jogos de resolução de problemas, laboratórios de inovação." },
+          { "title": "Exercícios de Liderança & Construção de Confiança", "text": "" },
+          { "title": "Retiros Corporativos & Eventos Motivacionais", "text": "" },
+          { "title": "Experiências com a Marca", "text": "Eventos temáticos feitos à medida da sua indústria." },
+          { "title": "Gestão de Eventos Corporativos", "text": "Garante que os seus eventos e encontros executivos atingem os objetivos estratégicos de comunicação e networking." }
+        ]
+      }
+    }
+  },
+  "timeline": {
+    "eyebrow": "Porquê a KRONS",
+    "heading": "O Que Ganha ao Trabalhar com a KRONS Training",
+    "milestones": [
+      { "year": "01", "title": "Especialização por Indústria", "text": "Formação especializada para os sectores da logística, mineração, oil & gas e comercial." },
+      { "year": "02", "title": "Foco em Formação In-House", "text": "Programas flexíveis, no local, feitos à medida das necessidades da sua empresa." },
+      { "year": "03", "title": "Formadores Experientes", "text": "Profissionais certificados com experiência real." },
+      { "year": "04", "title": "Cobertura Nacional", "text": "Entrega de formação na Beira, Nampula, Tete, Chimoio, Nacala, Manica e mais." },
+      { "year": "05", "title": "Métodos Práticos & Envolventes", "text": "Workshops interativos, casos de estudo e simulações." }
+    ]
+  },
+  "projects": {
+    "eyebrow": "Projetos Realizados",
+    "heading": "Trabalhos que falam por nós",
+    "subtitle": "Uma seleção de programas, consultorias e eventos entregues com impacto real em Moçambique.",
+    "sliderPrev": "Imagem anterior",
+    "sliderNext": "Imagem seguinte",
+    "items": [
+      { "tag": "Formação", "title": "Formação em Procurement — CPMZ", "location": "Beira", "year": "2023", "description": "Formação em procurement para a equipa da CPMZ Pipeline: business case, avaliação de investimento, gestão de contratos e de risco, com casos aplicados à realidade da organização." },
+      { "tag": "Team Building", "title": "Team Building INPETRO", "location": "Beira", "year": "2022", "description": "Programa de team building para a equipa da INPETRO: dinâmicas de grupo, provas por equipas e uma competição final com troféu e certificados que elevou a energia e o espírito de equipa." },
+      { "tag": "Team Building", "title": "Team Building UNDP 2025", "location": "Moçambique", "year": "2025", "description": "Programa de team building desenhado para a equipa do PNUD: desafios colaborativos ao ar livre, jogos de estratégia e exercícios de confiança que reforçaram a coesão e a comunicação da equipa." },
+      { "tag": "Formação", "title": "Formação Técnica de Negócios", "location": "Beira", "year": "2020", "description": "Programa de capacitação em competências técnicas de negócios para jovens profissionais, com sessões práticas, avaliação contínua e certificação dos participantes." }
+    ]
+  },
+  "testimonials": {
+    "eyebrow": "Testemunhos",
+    "heading": "O que dizem sobre o nosso trabalho",
+    "items": [
+      { "quote": "A formação da KRONS elevou a produtividade da nossa equipa e trouxe métodos que aplicamos todos os dias.", "name": "Carlos Mucavele", "role": "Diretor de Operações", "location": "Maputo" },
+      { "quote": "Profissionalismo do início ao fim. O acompanhamento na certificação ISO fez toda a diferença para nós.", "name": "Ana Tembe", "role": "Gestora de Qualidade", "location": "Beira" },
+      { "quote": "Uma consultoria séria e orientada a resultados. Ajudaram-nos a definir uma estratégia clara de crescimento.", "name": "Jorge Nhaca", "role": "Administrador", "location": "Nampula" }
+    ]
+  },
+  "partners": {
+    "eyebrow": "Parcerias",
+    "heading": "Empresas que colaboram connosco"
+  },
+  "footer": {
+    "tagline": "Formação corporativa, consultoria empresarial e de RH e auditoria ISO 9001, na Beira desde 2017.",
+    "backToTop": "Voltar ao topo",
+    "navHeading": "Navegação",
+    "navLinks": [
+      { "label": "Início", "href": "#" },
+      { "label": "Sobre", "href": "#about" },
+      { "label": "Soluções", "href": "#gallery" },
+      { "label": "Porquê a KRONS", "href": "#timeline" },
+      { "label": "Projetos", "href": "#projects" },
+      { "label": "Galeria", "href": "/galeria" }
+    ],
+    "contactsHeading": "Contactos",
+    "siteLabel": "Site:",
+    "emailLabel": "Email:",
+    "phoneLabel": "Telefone:",
+    "whatsappLabel": "WhatsApp:",
+    "addressLabel": "Endereço:",
+    "address": "Av. FPLM, Bairro Palmeiras, Beira, Moçambique",
+    "website": "kronsconsulting.co.mz",
+    "email": "admin@kronsevents.com",
+    "email2": "geral@kronslda.com",
+    "phone": "+258 87 322 3444",
+    "whatsapp": "+258 86 822 3444",
+    "whatsappAriaLabel": "Contactar via WhatsApp",
+    "social": {
+      "facebook": "https://www.facebook.com/kronsevents/",
+      "linkedin": "https://www.linkedin.com/company/krons-e-events"
+    },
+    "privacy": "Política de Privacidade",
+    "companyName": "Krons Training and Consulting",
+    "copyright": "© 2026 Todos os direitos reservados."
+  },
+  "faq": {
+    "eyebrow": "Dúvidas Frequentes",
+    "heading": "Ainda tem dúvidas?",
+    "subtitle": "As respostas mais rápidas para o que costumam perguntar.",
+    "noMatch": "Ainda não temos essa informação publicada — fale connosco diretamente e respondemos rapidamente.",
+    "whatsappCta": "Fale Connosco pelo WhatsApp",
+    "moreQuestions": "Ainda tem dúvidas? Fale diretamente connosco e respondemos rapidamente.",
+    "items": [
+      {
+        "id": "formacoes",
+        "question": "Que formações e soluções a KRONS oferece?",
+        "keywords": ["formação", "formações", "curso", "cursos", "solução", "soluções", "serviços", "oferecem", "área"]
+      },
+      {
+        "id": "duracao",
+        "question": "Qual é a duração dos cursos?",
+        "keywords": ["duração", "tempo", "dias", "horas", "quanto tempo", "dura"],
+        "notPublished": "A duração varia consoante o programa e é definida à medida com cada empresa."
+      },
+      {
+        "id": "inscricao",
+        "question": "Como funciona o processo de inscrição?",
+        "keywords": ["inscrição", "inscrever", "marcar", "reservar", "como começar", "processo"],
+        "notPublished": "Ainda não temos um processo de inscrição online — tratamos tudo diretamente consigo, por WhatsApp, telefone ou email."
+      },
+      {
+        "id": "precos",
+        "question": "Quais são os preços?",
+        "keywords": ["preço", "preços", "custo", "custa", "valor", "orçamento", "quanto"],
+        "notPublished": "Os preços variam consoante o programa e o número de participantes — contacte-nos para um orçamento personalizado."
+      },
+      {
+        "id": "contactos",
+        "question": "Como posso entrar em contacto?",
+        "keywords": ["contacto", "contactos", "telefone", "email", "falar", "número"]
+      },
+      {
+        "id": "localizacao",
+        "question": "Onde estão localizados?",
+        "keywords": ["localização", "endereço", "morada", "onde ficam", "onde", "sede"]
+      },
+      {
+        "id": "institucional",
+        "question": "Quem é a KRONS?",
+        "keywords": ["quem são", "quem é", "empresa", "sobre", "institucional", "história", "fundada"]
+      }
+    ]
+  },
+  "chatbot": {
+    "launcherLabel": "Abrir assistente virtual",
+    "closeLabel": "Fechar assistente",
+    "title": "Assistente KRONS",
+    "greeting": "Olá! Posso ajudar com informações sobre formações, contactos e localização. Escolha uma pergunta ou escreva a sua dúvida.",
+    "inputPlaceholder": "Escreva a sua pergunta...",
+    "send": "Enviar",
+    "fallback": "Ainda não tenho essa informação. Fale connosco pelo WhatsApp — é mais rápido!",
+    "fallbackCta": "Continuar no WhatsApp",
+    "fallbackMessage": "Olá, tenho uma dúvida que o assistente do site não conseguiu responder."
+  },
+  "photoGallery": {
+    "eyebrow": "Momentos KRONS",
+    "heading": "Galeria",
+    "subtitle": "Alguns momentos das nossas formações e team buildings em Moçambique.",
+    "teaserText": "Explorar os Momentos da Krons",
+    "back": "Voltar ao início",
+    "items": [
+      { "alt": "Formação em Procurement para a CPMZ" },
+      { "alt": "Team building corporativo com a equipa da INPETRO" },
+      { "alt": "Team building com a equipa do PNUD em 2025" },
+      { "alt": "Formação técnica em negociação" },
+      { "alt": "Dinâmica de grupo durante o team building da INPETRO" },
+      { "alt": "Sessão em grupo do team building do PNUD" },
+      { "alt": "Atividade outdoor de team building" },
+      { "alt": "Sessão de formação em Procurement para a CPMZ" },
+      { "alt": "Equipa da INPETRO em sessão de trabalho durante o team building" },
+      { "alt": "Dinâmica de construção em equipa com o PNUD" },
+      { "alt": "Formação técnica em negociação — entrega de materiais aos participantes" }
+    ]
+  }
+}
