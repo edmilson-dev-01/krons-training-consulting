@@ -1,0 +1,169 @@
+.section {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 60px;
+  scroll-snap-align: start;
+  gap: 48px;
+}
+
+/* Image */
+.imageWrapper {
+  width: 100%;
+  margin-top: 24px;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 20px 50px rgba(var(--ink-rgb), 0.14);
+  transition:
+    transform 0.5s cubic-bezier(0.16, 1, 0.3, 1),
+    box-shadow 0.5s cubic-bezier(0.16, 1, 0.3, 1),
+    opacity 0.6s ease;
+}
+
+.image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.imageWrapper:hover .image {
+  transform: scale(1.08);
+}
+
+/* Image entrance: settles down from a slight zoom rather than sliding in */
+.imageReveal {
+  opacity: 0;
+  transform: scale(1.12);
+}
+
+.imageReveal.imageVisible {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.imageReveal.imageVisible:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 30px 60px rgba(var(--ink-rgb), 0.2);
+}
+
+/* What We Stand For */
+.standFor {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.decorativeLines {
+  position: absolute;
+  top: -20px;
+  right: 0;
+  pointer-events: none;
+  opacity: 0.85;
+}
+
+.standForHeading {
+  font-size: 30px;
+  font-weight: 600;
+  color: var(--heading);
+  margin: 0;
+}
+
+.cardsGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  max-width: 760px;
+}
+
+/* Card — bounces into place with a springy overshoot */
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  opacity: 0;
+  transform: scale(0.8) translateY(20px);
+  transition:
+    opacity 0.5s ease-out,
+    transform 0.7s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.card:nth-child(1) {
+  transition-delay: 0.2s;
+}
+
+.card:nth-child(2) {
+  transition-delay: 0.38s;
+}
+
+.standFor.visible .card {
+  opacity: 1;
+  transform: scale(1) translateY(0);
+}
+
+.iconWrapper {
+  width: 48px;
+  height: 48px;
+  background: var(--accent-tint);
+  color: var(--accent-strong);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.cardTitle {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--heading);
+  margin: 0;
+}
+
+.cardText {
+  font-size: 14px;
+  color: var(--text-soft);
+  line-height: 1.7;
+  margin: 0;
+}
+
+/* Reveal Animation */
+.reveal {
+  opacity: 0;
+  transform: translateY(32px);
+  transition:
+    opacity 0.7s ease,
+    transform 0.7s ease;
+}
+
+.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .section {
+    padding: 40px 24px;
+  }
+
+  .image {
+    height: 240px;
+  }
+
+  .cardsGrid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .decorativeLines {
+    width: 80%;
+    opacity: 0.6;
+  }
+}
