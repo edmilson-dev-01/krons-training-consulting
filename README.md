@@ -205,12 +205,14 @@ e não podem ser reutilizados, copiados ou distribuídos por terceiros.
 
 ## Autor e contacto
 
-**KRONS Training and Consulting** — Av. FPLM, Bairro Palmeiras, Beira,
-Moçambique.
+© 2026  
+Desenvolvido pela **Otech**  
 
-- Website: [kronsconsulting.co.mz](https://kronsconsulting.co.mz)
-- Email: geral@kronslda.com
-- WhatsApp: +258 86 822 3444
+Desenvolvedor: **Edmilson Benjamim Caetano**  
+Email: **edmilson.caetano@otech.co.mz**  
+
+Responsável pelo projeto: **Osvaldo Simon**  
+Email: **osvaldo.simone@otech.co.mz**
 
 Acesso e dúvidas técnicas sobre este repositório: contactar a equipa
 internamente, através dos canais acima.
